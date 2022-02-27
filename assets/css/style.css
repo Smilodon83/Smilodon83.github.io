@@ -553,12 +553,12 @@ nav a:hover{
 /* Populaire Phone  */
 .hebergement_et_populaire h2{
     font-size: 20px;
-    margin-right: 10px;
+ 
 }
 #populaire{
     width: 100%;
     border-radius: 0;
-    margin: 10px 0 10px 0;
+    margin: 10px 20px 10px 0;
 }
 #populaire article{
     height: max-content;
@@ -575,18 +575,24 @@ nav a:hover{
     margin: 10px 0 10px 0;
     background-color: white;
 
-}
 
+}
+.hebergement .box_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .box_article{
     flex-direction: column;
-    width: 98%;
+    width: 90%;
+    margin:0;
 }
 
 
 .box_article article{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-right: 20px;
+ 
 }
 .box_article article img{
     height: 30vw;
@@ -605,7 +611,7 @@ nav a:hover{
     gap: 10px;
     width: 98%;
     /* background-color: #0065fc; */
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
 }
  .simple, .double{
     width: 90vw;
