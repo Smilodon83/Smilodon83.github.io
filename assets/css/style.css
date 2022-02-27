@@ -61,9 +61,7 @@ h1 {
 
 
 /* Main */
-main {
-    /* margin: 20px; */
-}
+
 
 /* Barre de recherche*/
 
@@ -507,6 +505,7 @@ nav li{
 }
 nav a{
     border-bottom: #ffffff 3px solid;
+    margin-right: 0;
 }
 nav a:hover{
     border-bottom: #0065fc 3px solid;
