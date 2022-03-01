@@ -601,6 +601,7 @@ footer li {
 
     #champ_recherche {
         width: 60%;
+        font-size: 18px;
     }
 
     /* Barre Filtre Phone */
