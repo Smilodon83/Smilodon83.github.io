@@ -2,6 +2,7 @@ body {
 
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px 0px 0px;
+    min-width: 320px;
 
 
 }
@@ -603,6 +604,7 @@ footer li {
         width: 60%;
         font-size: 20px;
     }
+    
 
     /* Barre Filtre Phone */
     .barre_filtre {
@@ -659,8 +661,8 @@ footer li {
 
     .box_article {
         flex-direction: column;
-        width: 98%;
-        margin: 0 20px 0 20px;
+        width: 95%;
+      
 
     }
 
@@ -717,4 +719,60 @@ footer li {
     footer li{
         padding-top: 10px;
     }
+}
+
+ @media screen and (max-width: 375px){
+    #btn_recherche {
+    background-color: #0065fc;
+    border-radius: 0 20px 20px 0px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    margin-left: -5px;
+
+}
+
+input::placeholder {
+    color: #000000;
+    opacity: 1;
+    font-size: 20px;
+}
+
+#champ_recherche {
+    border-top: 1px rgb(242, 242, 242) solid;
+    border-right: 1px transparent solid;
+    border-bottom: 1px rgb(242, 242, 242)solid;
+    border-left: 1px transparent solid;
+    padding: 14.5px 0px 14.5px 5px;
+    font-size: 20px;
+    width: 65%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+
+.fa-map-marker-alt {
+    font-size: 20px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    border-top: 1px rgb(242, 242, 242) solid;
+    border-left: 1px rgb(242, 242, 242) solid;
+    border-bottom: 1px rgb(242, 242, 242)solid;
+    padding: 16.25px 20px 16.25px 20px;
+
+}
+ 
+.barre_recherche {
+  align-items: center;
+    margin-left: 0px;
+}
+    
+
 }
